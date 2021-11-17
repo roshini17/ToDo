@@ -1,0 +1,15 @@
+<div *ngIf="isUserAuthenticated()">
+  <div class="form-group">
+    <button class="btn btn-link" type="submit" style="float: right;"><a class="logout" (click)="logOut()">Logout</a></button>
+</div>
+  <h2>
+    <app-todo-items></app-todo-items>
+  </h2>
+</div>
+
+<br>
+<div *ngIf="!isUserAuthenticated()">
+  <div class="form-group">
+    <app-login></app-login>
+  </div>
+</div>

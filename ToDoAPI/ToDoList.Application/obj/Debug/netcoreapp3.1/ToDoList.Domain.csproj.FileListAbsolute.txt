@@ -1,0 +1,13 @@
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.csproj.AssemblyReference.cache
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.AssemblyInfoInputs.cache
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.AssemblyInfo.cs
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.csproj.CoreCompileInputs.cache
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\bin\Debug\netcoreapp3.1\ToDoList.Domain.deps.json
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\bin\Debug\netcoreapp3.1\ToDoList.Domain.dll
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\bin\Debug\netcoreapp3.1\ToDoList.Domain.pdb
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\bin\Debug\netcoreapp3.1\ToDoList.Infrastructure.dll
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\bin\Debug\netcoreapp3.1\ToDoList.Infrastructure.pdb
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.csproj.CopyComplete
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.dll
+C:\Users\roshini.lakshmanan\source\repos\Del\ToDo\ToDoAPI\ToDoList.Application\obj\Debug\netcoreapp3.1\ToDoList.Domain.pdb

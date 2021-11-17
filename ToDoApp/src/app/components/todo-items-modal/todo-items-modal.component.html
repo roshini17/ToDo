@@ -1,0 +1,43 @@
+<div>
+    <h1>ToDo Item Details</h1>
+</div>
+<form novalidate #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+    <input
+        type="hidden"
+        name="id"
+        [value] = "service.todoData.id"
+    >
+    <div class="form-group">
+        <label>Item Description</label>
+        <input
+            class="form-control"
+            placeholder="Item Description"
+            name="itemDescription"
+            #itemDescription="ngModel"
+            [(ngModel)]="service.todoData.itemDescription"
+            required
+            maxlength="150"
+            [ngClass]="{ 'is-invalid': itemDescription.invalid && itemDescription.touched }"
+        >
+        <div *ngIf="itemDescription.touched">
+            <p *ngIf="itemDescription.errors?.required">Item description is required!</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Item Status</label>
+        <input
+            class="statuscheck"
+            type="checkbox"
+            name="isCompleted"
+            #isCompleted="ngModel"
+            [(ngModel)]="service.todoData.isCompleted"
+            [ngModelOptions]="{standalone: true}"
+            required
+        >
+    </div>
+    
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">Submit</button>
+    </div>
+</form>

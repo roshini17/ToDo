@@ -1,0 +1,21 @@
+h1
+{
+    text-align: center;
+    color: #23527c;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.secondline {
+    margin-left: 35px !important;
+}
+
+.deletechild {
+    margin-left: 25px;
+} 

@@ -1,0 +1,30 @@
+<div>
+    <h1>ToDo Items</h1>
+    <div class="form-group">
+        <button class="btn btn-link" type="submit">
+            <a class="addItem" (click)="addItem()">Add Item</a>
+        </button>
+    </div>
+</div>
+<mat-list>
+    <mat-list-item *ngFor="let pd of service.list">
+        <h3 matLine>
+            <div class="flex-container">
+                <div class="flex-child">
+                    <input #isCompleted type="checkbox" id="isCompleted" name="isCompleted" [checked]="pd.isCompleted"
+                        (change)="changeStatus(pd, isCompleted.checked)">
+                </div>
+                <div class="flex-child" (click)="populateForm(pd)">
+                    {{pd.itemDescription}}
+                </div>
+                <div class="flex-child deletechild">
+                    <i class="fa fa-trash-o text-danger" (click)="onDelete(pd.id)"></i>
+                </div>
+            </div>
+        </h3>
+        <p matLine (click)="populateForm(pd)" class="secondline">
+            <span>Modified On: {{ pd.modifiedDate | date: 'short' }} </span>
+        </p>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+</mat-list>
