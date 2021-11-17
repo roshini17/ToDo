@@ -1,6 +1,10 @@
 # ToDoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+## Local Development Setup
+* Clone Repository from ADO to local
+* Open Visual Studio Code at the root folder (or open powershell and go to the folder directory)
+* Open the Visual Studio Code Terminal
+* Run - `npm i`
 
 ## Development server
 
