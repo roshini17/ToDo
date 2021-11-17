@@ -1,7 +1,7 @@
 # ToDoApp
 
 ## Local Development Setup
-* Clone Repository from ADO to local
+* Clone Repository from git repo to local
 * Open Visual Studio Code at the root folder (or open powershell and go to the folder directory)
 * Open the Visual Studio Code Terminal
 * Run - `npm i`
